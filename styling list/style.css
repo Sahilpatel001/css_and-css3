@@ -1,0 +1,46 @@
+*
+{
+  list-style-type: none;
+}
+
+ol li::before
+{
+  content:"\00BB";
+}
+
+ol li::after
+{
+  content: "\231B";
+}
+
+
+ul li::before
+{
+  content:"\21A3";
+}
+
+ul li::after
+{
+  content:"\261B"
+}
+
+
+ol li, ul li
+{
+  font-family:"Montserrat", serif ;
+  font-size: 30px;
+  font-style: italic;
+}
+
+ol li
+{
+  color: magenta;  
+}
+
+ul li
+{
+  color: darkblue;
+}
+
+
+
