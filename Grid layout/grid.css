@@ -11,13 +11,13 @@
   height:100vh;
   display: grid;
   justify-content: center;
-  align-items:center;
+  align-items: center;
 }
 
 .row
 {
   display: grid;
-  grid-template-columns: repeat(3,250px);
+  grid-template-columns: repeat(auto-fit,250px);
   gap: 20px;
 }
 
@@ -42,8 +42,8 @@
 
     .row
     {
-        display:grid;
-        grid-template-columns:repeat(2,150px);
+        display: grid;
+        grid-template-columns:repeat(auto-fit,150px);
     }
 
     .image
